@@ -55,7 +55,7 @@ class Loginscreen extends Component {
     return (
       <div className="loginscreen">
         {this.state.loginscreen}
-        <div>
+        <div className="loginDiv">
           {this.state.loginmessage}
           <MuiThemeProvider>
             <div>

@@ -48,7 +48,7 @@ class Login extends Component {
 
   render() {
     return (
-      <div>
+      <div className="loginMainDiv">
         <MuiThemeProvider>
           <div>
             <AppBar
